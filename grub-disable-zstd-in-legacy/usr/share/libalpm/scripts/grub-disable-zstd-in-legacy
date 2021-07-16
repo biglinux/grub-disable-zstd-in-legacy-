@@ -1,0 +1,3 @@
+#!/bin/sh
+
+sed -i '/btrfs/s/ zstd//' /usr/lib/grub/i386-pc/moddep.lst

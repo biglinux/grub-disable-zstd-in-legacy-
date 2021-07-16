@@ -1,0 +1,10 @@
+[Trigger]
+Type = Package
+Operation = Install
+Operation = Upgrade
+Target = grub
+
+[Action]
+Description = Disable zstd in grub legacy
+When = PostTransaction
+Exec = /usr/share/libalpm/scripts/grub-disable-zstd-in-legacy
