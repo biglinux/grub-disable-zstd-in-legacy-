@@ -3,6 +3,7 @@ Type = Package
 Operation = Install
 Operation = Upgrade
 Target = grub
+Target = grub-disable-zstd-in-legacy
 
 [Action]
 Description = Disable zstd in grub legacy
